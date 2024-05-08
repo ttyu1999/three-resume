@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-resume</title>
+    <style>* {
+  box-sizing: border-box;
+  letter-spacing: .1rem;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+  max-width: 100%;
+}
+
+.food__order {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.food__order:before {
+  content: "";
+  border: 10px solid #0000;
+  border-top-color: #fff;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -1px);
+}
+
+.food__img {
+  max-width: 80px;
+}
+
+#modal {
+  z-index: 999;
+  border: none;
+  border-radius: 2rem;
+  margin: auto;
+  padding: 2rem;
+  position: fixed;
+  inset: 0;
+  box-shadow: 0 0 1rem #0000004f;
+}
+
+#modal form {
+  padding-block-start: 2rem;
+  display: flex;
+}
+
+#modal button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #f4ae51;
+  border: none;
+  border-radius: 1.5rem;
+  margin: auto;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+}
+
+</style>
+</head>
+<body>
+    <script src="./index.18dbc454.js" defer=""></script>
+    <dialog id="modal">
+        <p>系統檢測2分鐘沒有任何動作，已中斷服務器連線</p>
+        <form method="dialog">
+            <button id="connection">重新連接</button>
+        </form>
+    </dialog>
+</body>
+</html>
