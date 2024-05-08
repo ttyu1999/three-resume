@@ -43547,7 +43547,7 @@ class GameManager {
         this.playerOnGround = this.playerHeight / 2;
         this.clientId = null;
         this.wsUrl = "wss://a-resume.fly.dev"; // WebSocket URL
-        this.wsUrl = "ws://localhost:8080"; // WebSocket URL
+        // this.wsUrl = 'ws://localhost:8080'; // WebSocket URL
         this.ws = null;
         this.timeoutId = null;
         this.TIMEOUT_DURATION = 120000; // 定義自動斷線時間（2 分鐘）
